@@ -2,7 +2,7 @@
 var buttonEl = document.querySelector("#save-task");
 var tasksToDoEl = document.querySelector("#tasks-to-do");
 
-//created to-do task item with eventlistener function
+//add ability to add task item with eventlistener function
 var createTaskHandler = function () {
     var listItemEl = document.createElement("li");
     listItemEl.className = "task-item";
